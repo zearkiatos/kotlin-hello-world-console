@@ -7,6 +7,9 @@ package:
 build:
 	./gradlew --no-daemon shadowJar
 
+test:
+	./gradlew test
+
 docker-up:
 	docker compose up --build
 
