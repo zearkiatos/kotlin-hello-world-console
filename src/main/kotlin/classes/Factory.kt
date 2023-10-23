@@ -1,0 +1,3 @@
+companion object Factory {
+    // anything
+}
