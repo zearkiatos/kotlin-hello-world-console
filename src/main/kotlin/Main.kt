@@ -21,5 +21,21 @@ fun main(args: Array<String>) {
 
     println("This is an array ${array.toList()}")
 
+    var num = when(true) {
+        true -> 100
+        else -> 500
+    }
+
+    println("It is ${num} because it is true")
+
+    num = when(false) {
+        true -> 100
+        else -> 500
+    }
+
+    println("It is ${num} because it is false")
+
+    
+
 
 }
